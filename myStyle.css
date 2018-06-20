@@ -48,13 +48,13 @@ body {
 
 .banner .heading {
     margin :2vw;
+    color: white;
 }
 
 .banner .heading h1,h3 {
     margin : 0;
     padding : 0;
-    color: white;
-    /*width : 22vw;*/
+    
 }
 
 
@@ -89,7 +89,9 @@ body {
 .tech-icon{
     width:12vw;
     padding: .5vw;
-    margin : .5vw;
+    margin : 1vw;
+    border-radius: 50vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition : box-shadow .3s;
 }
 
@@ -100,6 +102,7 @@ body {
 
 .experiance{
     background-color: aqua;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
     padding: 2vw 10vw;
 }
 
@@ -110,10 +113,11 @@ body {
     justify-content: center;
 }
 .project-details{
-    width:16vw;
+    width:25vw;
     padding: 0 1vw 1vw 1vw;
     margin : .5vw;
-    border: 1px solid grey;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition : box-shadow .3s;
     
 }
@@ -181,10 +185,10 @@ body {
     }
     .tech-icon{
         width:25vw;
-        
+        margin: 2vw;
     }
     .project-details{
-        width:35vw;
+        width:45vw;
     }
     .contact-icon{
         height:6vw;
@@ -213,11 +217,11 @@ body {
 
     .tech-icon{
         width:35vw;
-        
+        margin :2vw;
     }
 
     .project-details{
-        width:45vw;
+        width:90vw;
     }
 
     .contact-icon{
